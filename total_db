@@ -1,3 +1,0 @@
-SELECT hash FROM commits;
-
-SELECT hash, committer_name, committer_date, SUM(levenshtein_dist) FROM(SELECT * FROM commits INNER JOIN edits ON commits.hash = edits.commit_hash) GROUP BY hash
