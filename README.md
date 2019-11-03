@@ -2,7 +2,7 @@
 
 
 
-'main.ipynb' contains main code for linear regression analysis
+'main.ipynb' contains main code for multiple linear regression analysis
 
 'test.ipynb' is basically junk, just testing things out
 
