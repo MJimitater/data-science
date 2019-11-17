@@ -18,7 +18,10 @@ This repo is meant to analyse the Ringelmann effect on different-sized co-editin
 
 - Install the `git2net` package (pip install git2net)
 - Git clone the desired repo that you wish to analyse the co-editing network of.
+  - For `main_nginx.ipynb` the repo https://github.com/jwilder/nginx-proxy.git was used
+  - For `main_architecture.ipynb` the repo https://github.com/android/architecture-samples.git was used
+  - For `main_tlp.ipynb` the repo https://github.com/linrunner/TLP.git was used
+  - For `main_hello-world.ipynb` the repo https://github.com/leachim6/hello-world.git was used
 - Pick one of the `main` codes.. the above ones are fitted for chosen repos.
 - Mine the repo by uncommenting the mining block in the `main` code and specifying `repo_dir` (location of stored git repo) and `sqlite_db_file` (location of database file that will be mined in the `main` code.).
 - Run the `main` code and analyse in respect to the Ringelmann effect.
-
